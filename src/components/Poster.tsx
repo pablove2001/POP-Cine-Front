@@ -6,7 +6,7 @@ export default function Poster(props: {
   return (
     <>
       <div
-        className="overflow-hidden h-72 min-w-40 drop-shadow-lg rounded-md bg-cover bg-center group relative hover:scale-[1.05] transition-all duration-300 ease-out"
+        className="overflow-hidden h-72 min-w-40 drop-shadow-lg rounded-md bg-cover bg-center group relative hover:scale-[1.05] transition-all duration-300 ease-out mb-4"
         style={{ backgroundImage: `url(${props.img})` }}
       >
         <div className="absolute top-72 w-full h-full bg-black bg-opacity-70 group-hover:top-0 group-hover:opacity-100 opacity-0 flex transition-all duration-300 ease-out items-center object-cover">
