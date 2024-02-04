@@ -1,24 +1,628 @@
 {
   "movies": [
     {
-      "name": "Iron Man",
-      "image": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/b/bf/Iron_Man_1_Portada.png/revision/latest?cb=20191029194450&path-prefix=es",
-      "price": 100.24
+      "name": "Mad Max: Fury Road",
+      "image": "https://th.bing.com/th/id/OIP.PE99qDCmpsncFOMR2ijoVAHaLH?rs=1&pid=ImgDetMain",
+      "price": 85.75,
+      "category": "action",
+      "rentals": 500,
+      "description": "In a post-apocalyptic wasteland, Max teams up with Imperator Furiosa to escape a tyrannical warlord and his army."
     },
     {
-      "name": "Iron Man 2",
-      "image": "https://image.tmdb.org/t/p/original/5tCA3oZXLRPHmS5DIDnlu7hY4Ab.jpg",
-      "price": 100.24
+      "name": "John Wick",
+      "image": "https://www.themoviedb.org/t/p/original/nCzzQKGijVzfGFg42id7uDLOjY5.jpg",
+      "price": 99.25,
+      "category": "action",
+      "rentals": 800,
+      "description": "Former hitman John Wick seeks vengeance for the death of his beloved dog, unleashing a relentless and stylish action spree."
     },
     {
-      "name": "Iron Man 3",
-      "image": "https://www.themoviedb.org/t/p/original/3OkXrXYsXELnqCqGhgYHvDXTc3v.jpg",
-      "price": 100.24
+      "name": "Mission: Impossible - Fallout",
+      "image": "https://th.bing.com/th/id/OIP.tE_FdGciO1pgppC6wHroygHaLH?rs=1&pid=ImgDetMain",
+      "price": 120.5,
+      "category": "action",
+      "rentals": 650,
+      "description": "Ethan Hunt and his team race against time to prevent a global catastrophe, facing danger and deception at every turn."
     },
     {
-      "name": "UP",
-      "image": "https://www.cinepremiere.com.mx/wp-content/uploads/2009/06/up-movie-poster-720x1024.jpg",
-      "price": 100.24
+      "name": "Wonder Woman",
+      "image": "https://th.bing.com/th/id/OIP.SzRBErK5eL9TbDF1lKrm-gHaK-?rs=1&pid=ImgDetMain",
+      "price": 68.9,
+      "category": "action",
+      "rentals": 720,
+      "description": "Diana, an Amazonian princess, discovers her true destiny as Wonder Woman, joining the battle against evil in World War I."
+    },
+    {
+      "name": "Black Panther",
+      "image": "https://image.tmdb.org/t/p/original/fj7sX7w0MfIxWylcizp5ArPIMFs.jpg",
+      "price": 75.2,
+      "category": "action",
+      "rentals": 920,
+      "description": "T'Challa, the Black Panther, must defend his kingdom and the world from powerful enemies after the death of his father."
+    },
+    {
+      "name": "The Dark Knight",
+      "image": "https://www.themoviedb.org/t/p/original/pKKvCaL1TPTVtbI6EeliyND3api.jpg",
+      "price": 105.8,
+      "category": "action",
+      "rentals": 850,
+      "description": "Batman faces the Joker's chaos and anarchy as he tries to save Gotham City from descending into irreversible darkness."
+    },
+    {
+      "name": "Baby Driver",
+      "image": "https://th.bing.com/th/id/OIP.hsSOISUSegm1fH2WvQHROQHaLA?rs=1&pid=ImgDetMain",
+      "price": 62.4,
+      "category": "action",
+      "rentals": 450,
+      "description": "A young getaway driver with exceptional skills navigates through heists while listening to his carefully curated playlists."
+    },
+    {
+      "name": "Logan",
+      "image": "https://image.tmdb.org/t/p/original/gGBu0hKw9BGddG8RkRAMX7B6NDB.jpg",
+      "price": 78.1,
+      "category": "action",
+      "rentals": 560,
+      "description": "In a future where mutants are nearly extinct, an aging Logan protects a young mutant girl with extraordinary powers."
+    },
+    {
+      "name": "Inception",
+      "image": "https://th.bing.com/th/id/OIP.6WES5nhdyXVDPrxHG0vCvgHaKz?rs=1&pid=ImgDetMain",
+      "price": 114.3,
+      "category": "action",
+      "rentals": 770,
+      "description": "Dom Cobb, a skilled thief, enters the world of corporate espionage by entering the dreams of others to steal their secrets."
+    },
+    {
+      "name": "The Avengers",
+      "image": "https://th.bing.com/th/id/OIP.vEkljgJ1qVoCcf2DRqSRnwHaLH?rs=1&pid=ImgDetMain",
+      "price": 89.6,
+      "category": "action",
+      "rentals": 690,
+      "description": "Earth's mightiest heroes, including Iron Man, Captain America, and Thor, join forces to stop Loki and save the world."
+    },
+    {
+      "name": "Deadpool",
+      "image": "https://www.themoviedb.org/t/p/original/3E53WEZJqP6aM84D8CckXx4pIHw.jpg",
+      "price": 95.15,
+      "category": "action",
+      "rentals": 820,
+      "description": "Wade Wilson, a former special forces operative, becomes Deadpool, a wisecracking antihero with accelerated healing powers."
+    },
+    {
+      "name": "The Raid: Redemption",
+      "image": "https://th.bing.com/th/id/R.13e83e92bcf769a9115edca40a25ee0b?rik=D6P%2bC8PmgdVpKw&riu=http%3a%2f%2fnews.omnimystery.com%2fimages%2fposter-raid-redemption-2012-full.jpg&ehk=T8CLkqPMsJC7GesiByY%2fGXBnJjPP1Fs6400gIMlQ%2f7M%3d&risl=&pid=ImgRaw&r=0",
+      "price": 57.8,
+      "category": "action",
+      "rentals": 310,
+      "description": "A rookie cop must navigate a high-rise building filled with criminals to bring down a ruthless crime lord."
+    },
+    {
+      "name": "1917",
+      "image": "https://www.themoviedb.org/t/p/original/y0ZJpORBt6V0QoC5pUOvLzvScEs.jpg",
+      "price": 72.9,
+      "category": "action",
+      "rentals": 480,
+      "description": "Two British soldiers are tasked with delivering a vital message across enemy lines to prevent a massacre during World War I."
+    },
+    {
+      "name": "Tenet",
+      "image": "https://th.bing.com/th/id/OIP.N10vayT-NMar2zM25RnE7QHaLH?rs=1&pid=ImgDetMain",
+      "price": 83.4,
+      "category": "action",
+      "rentals": 620,
+      "description": "A protagonist embarks on a time-bending mission to prevent World War III and uncover the mysteries of inversion."
+    },
+    {
+      "name": "Godzilla vs. Kong",
+      "image": "https://www.themoviedb.org/t/p/original/51tAtnATqN9VizZDnCN0IdCQpXF.jpg",
+      "price": 125.6,
+      "category": "action",
+      "rentals": 940,
+      "description": "Kong and Godzilla clash in an epic battle as humanity seeks to uncover the secrets behind the two powerful Titans."
+    },
+    {
+      "name": "The Grand Budapest Hotel",
+      "image": "https://www.themoviedb.org/t/p/original/vuanO9HGCCllmOpTemtSguLevnq.jpg",
+      "price": 54.2,
+      "category": "comedy",
+      "rentals": 190,
+      "description": "In the 1930s, a hotel concierge and his protégé become embroiled in a plot involving theft, murder, and a priceless painting."
+    },
+    {
+      "name": "Superbad",
+      "image": "https://image.tmdb.org/t/p/original/gqHRD8qNSM2dw3AEeDw2VrJsyiO.jpg",
+      "price": 60.7,
+      "category": "comedy",
+      "rentals": 260,
+      "description": "Two high school friends embark on a wild night of misadventures in their quest to buy alcohol for a party."
+    },
+    {
+      "name": "Bridesmaids",
+      "image": "https://image.tmdb.org/t/p/original/9DwPXzKdfXCpay6WGGFVS7K47au.jpg",
+      "price": 75.8,
+      "category": "comedy",
+      "rentals": 420,
+      "description": "Annie's life unravels as she competes with her best friend's other bridesmaids to organize the perfect wedding."
+    },
+    {
+      "name": "The Hangover",
+      "image": "https://i.pinimg.com/736x/40/1a/15/401a156bb04e9a0a0516041f66ba3e52.jpg",
+      "price": 85.4,
+      "category": "comedy",
+      "rentals": 670,
+      "description": "Four friends embark on a bachelor party in Las Vegas that takes a hilariously chaotic turn when they wake up with no memory of the night before."
+    },
+    {
+      "name": "21 Jump Street",
+      "image": "https://www.themoviedb.org/t/p/original/m6IYzA8zsM8cEzZiwjdCWGrINFY.jpg",
+      "price": 74.1,
+      "category": "comedy",
+      "rentals": 560,
+      "description": "Undercover cops Schmidt and Jenko infiltrate a high school to bring down a drug ring, but find themselves facing unexpected challenges."
+    },
+    {
+      "name": "The Nice Guys",
+      "image": "https://th.bing.com/th/id/OIP.zIklh6qrr5yPFpOy9V-x2wHaK-?rs=1&pid=ImgDetMain",
+      "price": 49.6,
+      "category": "comedy",
+      "rentals": 320,
+      "description": "A private investigator and a hired enforcer team up to solve the case of a missing girl and the mysterious death of a porn star."
+    },
+    {
+      "name": "Anchorman: The Legend of Ron Burgundy",
+      "image": "https://www.themoviedb.org/t/p/original/tii7fevXvgDKwMSXIYdppNcJoAJ.jpg",
+      "price": 57.2,
+      "category": "comedy",
+      "rentals": 380,
+      "description": "Ron Burgundy, a 1970s news anchor, faces challenges when a female journalist joins the newsroom, disrupting the all-male dynamic."
+    },
+    {
+      "name": "Shaun of the Dead",
+      "image": "https://www.themoviedb.org/t/p/original/AoOlCKSK1P8pN21bRenuggrVzn7.jpg",
+      "price": 55.3,
+      "category": "comedy",
+      "rentals": 290,
+      "description": "A slacker and his friends attempt to survive a zombie apocalypse while seeking refuge in their favorite pub."
+    },
+    {
+      "name": "This Is the End",
+      "image": "https://th.bing.com/th/id/R.610f54b7c8f38a8aecafc2e23d843619?rik=5wfieL5UMB84PA&riu=http%3a%2f%2fwww.impawards.com%2f2013%2fposters%2fthis_is_the_end_ver2.jpg&ehk=M9SCKgWfv%2fUU8eRiO1EXpLNNZiiO19xQdo%2bh1QE7W%2f8%3d&risl=&pid=ImgRaw&r=0",
+      "price": 64.8,
+      "category": "comedy",
+      "rentals": 420,
+      "description": "Celebrities face the apocalypse during a star-studded party at James Franco's house in this hilarious and surreal comedy."
+    },
+    {
+      "name": "Jojo Rabbit",
+      "image": "https://www.themoviedb.org/t/p/original/xhJF9gStbEsvGiCIxwPu8B1NqjZ.jpg",
+      "price": 78.9,
+      "category": "comedy",
+      "rentals": 580,
+      "description": "In Nazi Germany, a young boy discovers that his mother is hiding a Jewish girl in their home, leading to a whimsical and poignant exploration of tolerance and friendship."
+    },
+    {
+      "name": "Game Night",
+      "image": "https://www.themoviedb.org/t/p/original/5py6754DZJ6ew6v0rnWmgHxvNKn.jpg",
+      "price": 61.2,
+      "category": "comedy",
+      "rentals": 350,
+      "description": "A group of friends' regular game night turns into a real-life mystery when one of them is kidnapped, leading to unexpected twists and hilarity."
+    },
+    {
+      "name": "Palm Springs",
+      "image": "https://www.themoviedb.org/t/p/original/k9YLYcu2WbGBGUonCmFgPz6LRZa.jpg",
+      "price": 40.9,
+      "category": "comedy",
+      "rentals": 210,
+      "description": "Two wedding guests find themselves stuck in a time loop, reliving the same day over and over, leading to unexpected bonding and self-discovery."
+    },
+    {
+      "name": "Borat Subsequent Moviefilm",
+      "image": "https://th.bing.com/th/id/OIP.ABd3ic3OYKs4whhZrvZzewHaLH?rs=1&pid=ImgDetMain",
+      "price": 75.6,
+      "category": "comedy",
+      "rentals": 450,
+      "description": "Borat returns to America for a second adventure, bringing his unique brand of humor and satire to expose cultural and political absurdities."
+    },
+    {
+      "name": "Free Guy",
+      "image": "https://www.disneyplusinformer.com/wp-content/uploads/2021/07/Free-Guy-Character-Posters-1-scaled.jpg",
+      "price": 87.8,
+      "category": "comedy",
+      "rentals": 680,
+      "description": "A bank teller discovers he is a non-player character in a video game, prompting him to become the hero of his own story."
+    },
+    {
+      "name": "The Shawshank Redemption",
+      "image": "https://www.themoviedb.org/t/p/original/gUgdoneM2fzsT6Qx7GhGU4kxUgx.jpg",
+      "price": 131.4,
+      "category": "drama",
+      "rentals": 930,
+      "description": "A man is wrongly convicted of murder and forms a deep bond with his fellow inmates as he maintains hope for justice and freedom."
+    },
+    {
+      "name": "The Godfather",
+      "image": "https://www.themoviedb.org/t/p/original/d6LbJZO8ruvXgOjjGRgjtdYpJS4.jpg",
+      "price": 147.2,
+      "category": "drama",
+      "rentals": 990,
+      "description": "The powerful saga of the Corleone crime family unfolds, with themes of power, loyalty, and betrayal."
+    },
+    {
+      "name": "Schindler's List",
+      "image": "https://th.bing.com/th/id/OIP.73Equox0GByRwvV5-QflJgHaLH?rs=1&pid=ImgDetMain",
+      "price": 149.6,
+      "category": "drama",
+      "rentals": 980,
+      "description": "In Nazi-occupied Poland, Oskar Schindler saves over a thousand Jewish lives by employing them in his factory during the Holocaust."
+    },
+    {
+      "name": "Forrest Gump",
+      "image": "https://image.tmdb.org/t/p/original/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+      "price": 101.3,
+      "category": "drama",
+      "rentals": 790,
+      "description": "Forrest Gump, a man with a low IQ, experiences firsthand some of the most iconic events of the 20th century while pursuing his love, Jenny."
+    },
+    {
+      "name": "The Revenant",
+      "image": "https://www.themoviedb.org/t/p/original/o6XkwTovSWryJoEY3hoywwHLJtK.jpg",
+      "price": 114.9,
+      "category": "drama",
+      "rentals": 840,
+      "description": "Frontiersman Hugh Glass embarks on a journey of survival and revenge after being mauled by a bear and left for dead by his expedition team."
+    },
+    {
+      "name": "The Social Network",
+      "image": "https://www.themoviedb.org/t/p/original/4TZt6MwiLWQaLMGQ9a1nEbk1LIk.jpg",
+      "price": 72.8,
+      "category": "drama",
+      "rentals": 490,
+      "description": "The story of the founding of Facebook and the legal battles that followed, exploring themes of ambition, friendship, and betrayal."
+    },
+    {
+      "name": "Moonlight",
+      "image": "https://www.themoviedb.org/t/p/original/jHNOriz0dZazncIusgweRqJqaj5.jpg",
+      "price": 61.1,
+      "category": "drama",
+      "rentals": 420,
+      "description": "A coming-of-age drama that follows a young African-American man named Chiron as he navigates his identity and sexuality in a rough Miami neighborhood."
+    },
+    {
+      "name": "The Shape of Water",
+      "image": "https://www.themoviedb.org/t/p/original/nHKksz2SHsBc7X0jVSlbVye3lDB.jpg",
+      "price": 87.6,
+      "category": "drama",
+      "rentals": 580,
+      "description": "In the Cold War era, a mute woman forms a unique bond with an amphibious creature being held captive at a high-security government lab."
+    },
+    {
+      "name": "La La Land",
+      "image": "https://www.themoviedb.org/t/p/original/6ibTJwSpzFT43rqtoy51PF54A9r.jpg",
+      "price": 103.5,
+      "category": "drama",
+      "rentals": 710,
+      "description": "Aspiring actress Mia and jazz musician Sebastian fall in love while pursuing their dreams in Los Angeles, facing the challenges of fame and success."
+    },
+    {
+      "name": "The Irishman",
+      "image": "https://cdn.traileraddict.com/content/netflix/irishman-2019-poster-2.jpg",
+      "price": 112.2,
+      "category": "drama",
+      "rentals": 860,
+      "description": "An aging hitman reflects on his life and involvement with the mob, spanning decades of crime and moral reckoning."
+    },
+    {
+      "name": "Manchester by the Sea",
+      "image": "https://th.bing.com/th/id/OIP.itDmvHCYpY4OCqNaxDgmMgHaLH?rs=1&pid=ImgDetMain",
+      "price": 69.4,
+      "category": "drama",
+      "rentals": 510,
+      "description": "A man returns to his hometown to care for his nephew after the sudden death of his brother, dredging up painful memories."
+    },
+    {
+      "name": "Spotlight",
+      "image": "https://c8.alamy.com/comp/2JE3F6P/tuccimcadamsruffalokeatonposter-spotlight-2015-2JE3F6P.jpg",
+      "price": 57.1,
+      "category": "drama",
+      "rentals": 380,
+      "description": "A team of investigative journalists from The Boston Globe exposes the widespread sexual abuse scandal within the Catholic Church."
+    },
+    {
+      "name": "A Beautiful Mind",
+      "image": "https://www.themoviedb.org/t/p/w440_and_h660_face/bA7EKJbfVSsc0ereeZPlfcUYSIY.jpg",
+      "price": 89.6,
+      "category": "drama",
+      "rentals": 590,
+      "description": "The true story of John Nash, a brilliant but troubled mathematician, as he struggles with schizophrenia and makes groundbreaking contributions to the field of game theory."
+    },
+    {
+      "name": "12 Years a Slave",
+      "image": "https://www.themoviedb.org/t/p/original/qWDRzXgqsIdkHDP3RZnN6BGiwsQ.jpg",
+      "price": 78.1,
+      "category": "drama",
+      "rentals": 560,
+      "description": "Based on the autobiography of Solomon Northup, a free black man who is abducted and sold into slavery in the pre-Civil War United States."
+    },
+    {
+      "name": "The Trial of the Chicago 7",
+      "image": "https://www.themoviedb.org/t/p/original/fK4l8KyVZAPlEJ9oUxblz70Qeyy.jpg",
+      "price": 92.7,
+      "category": "drama",
+      "rentals": 630,
+      "description": "The story of the infamous 1969 trial of seven defendants charged by the federal government with conspiracy and incitement to riot."
+    },
+    {
+      "name": "Blade Runner 2049",
+      "image": "https://th.bing.com/th/id/R.36d7346af80890b61075aaa2aba393cf?rik=J4M3zyguIyC8CQ&pid=ImgRaw&r=0",
+      "price": 108.2,
+      "category": "sci-fi",
+      "rentals": 770,
+      "description": "A young blade runner discovers a long-buried secret that could plunge society into chaos, leading him on a quest to find a former blade runner missing for thirty years."
+    },
+    {
+      "name": "Interstellar",
+      "image": "https://picfiles.alphacoders.com/349/thumb-1920-349599.jpg",
+      "price": 123.8,
+      "category": "sci-fi",
+      "rentals": 920,
+      "description": "In a future where Earth is dying, a team of astronauts embarks on a journey through a wormhole in search of a new habitable planet for humanity."
+    },
+    {
+      "name": "The Matrix",
+      "image": "https://image.tmdb.org/t/p/original/aOIuZAjPaRIE6CMzbazvcHuHXDc.jpg",
+      "price": 139.4,
+      "category": "sci-fi",
+      "rentals": 980,
+      "description": "A computer hacker learns the truth about his reality and joins a group of rebels to overthrow a powerful artificial intelligence that controls the world."
+    },
+    {
+      "name": "Arrival",
+      "image": "https://picfiles.alphacoders.com/418/thumb-1920-41824.jpg",
+      "price": 86.7,
+      "category": "sci-fi",
+      "rentals": 540,
+      "description": "A linguist is recruited to help communicate with extraterrestrial visitors whose mysterious arrival triggers global tensions."
+    },
+    {
+      "name": "The Martian",
+      "image": "https://www.themoviedb.org/t/p/original/5BHuvQ6p9kfc091Z8RiFNhCwL4b.jpg",
+      "price": 103.2,
+      "category": "sci-fi",
+      "rentals": 690,
+      "description": "During a manned mission to Mars, an astronaut is presumed dead and left behind, leading to his struggle for survival and the efforts to rescue him."
+    },
+    {
+      "name": "Ex Machina",
+      "image": "https://www.themoviedb.org/t/p/original/uOfFwhoOnquwScn4jLT7aJ0ijvd.jpg",
+      "price": 69.5,
+      "category": "sci-fi",
+      "rentals": 470,
+      "description": "A young programmer is invited to administer the Turing test to an intelligent humanoid robot, leading to philosophical and ethical dilemmas."
+    },
+    {
+      "name": "Gravity",
+      "image": "https://image.tmdb.org/t/p/original/wmUeEacsFZzDndaeOtNNmy26rYJ.jpg",
+      "price": 58.8,
+      "category": "sci-fi",
+      "rentals": 360,
+      "description": "Two astronauts struggle for survival after their space shuttle is damaged, leaving them stranded in orbit with limited resources."
+    },
+    {
+      "name": "Elysium",
+      "image": "https://www.themoviedb.org/t/p/original/vW0DWLgT14WV6uJPnawY8501gpG.jpg",
+      "price": 75.2,
+      "category": "sci-fi",
+      "rentals": 510,
+      "description": "In a dystopian future, a man with limited time to live takes on a mission to bring equality to a divided society by reaching the luxurious space habitat, Elysium."
+    },
+    {
+      "name": "Annihilation",
+      "image": "https://th.bing.com/th/id/R.6c98836cd36e7589b1c21793ef23c4f4?rik=6C%2fA6LQTn%2bpeFA&pid=ImgRaw&r=0",
+      "price": 70.4,
+      "category": "sci-fi",
+      "rentals": 490,
+      "description": "A biologist joins a scientific expedition into a mysterious and expanding zone where the laws of nature are distorted, encountering strange phenomena and unknown dangers."
+    },
+    {
+      "name": "Edge of Tomorrow",
+      "image": "https://th.bing.com/th/id/OIP.z152isjSq1BitN281DIk1AHaLH?rs=1&pid=ImgDetMain",
+      "price": 80.9,
+      "category": "sci-fi",
+      "rentals": 620,
+      "description": "A military officer finds himself trapped in a time loop, reliving the same battle against an alien invasion until he gains unexpected skills and allies."
+    },
+    {
+      "name": "Snowpiercer",
+      "image": "https://www.themoviedb.org/t/p/original/2M7aHfL5chcsfy981oIloR4xZu2.jpg",
+      "price": 53.1,
+      "category": "sci-fi",
+      "rentals": 320,
+      "description": "In a post-apocalyptic world, the last remnants of humanity survive aboard a train that travels around the globe, but class divisions and injustices spark a revolution."
+    },
+    {
+      "name": "War for the Planet of the Apes",
+      "image": "https://th.bing.com/th/id/OIP.NUp4q3EEaEPLeRiWoLvpqQHaLH?rs=1&pid=ImgDetMain",
+      "price": 93.7,
+      "category": "sci-fi",
+      "rentals": 570,
+      "description": "Caesar, the leader of evolved apes, embarks on a quest for revenge against the ruthless Colonel, leading to an epic battle for the future of both species."
+    },
+    {
+      "name": "Dune",
+      "image": "https://th.bing.com/th/id/OIP.KTZo7lul80x1TCoW1jNf3QHaLH?rs=1&pid=ImgDetMain",
+      "price": 98.3,
+      "category": "sci-fi",
+      "rentals": 600,
+      "description": "In a distant future, young Paul Atreides must navigate political intrigue and the dangerous desert planet Arrakis, home to a valuable resource known as spice."
+    },
+    {
+      "name": "Get Out",
+      "image": "https://image.tmdb.org/t/p/original/mE24wUCfjK8AoBBjaMjho7Rczr7.jpg",
+      "price": 65.2,
+      "category": "horror",
+      "rentals": 370,
+      "description": "A young African-American man uncovers disturbing secrets when he visits his white girlfriend's family estate."
+    },
+    {
+      "name": "A Quiet Place",
+      "image": "https://th.bing.com/th/id/OIP.OOLWl2YQC60cAscaAPcYUQHaLH?rs=1&pid=ImgDetMain",
+      "price": 76.9,
+      "category": "horror",
+      "rentals": 560,
+      "description": "In a world where creatures hunt humans using sound, a family must navigate their lives in silence to survive."
+    },
+    {
+      "name": "The Conjuring",
+      "image": "https://image.tmdb.org/t/p/original/bMJ62JuWMRIYFeLQ8Ffypy0qrwu.jpg",
+      "price": 51.8,
+      "category": "horror",
+      "rentals": 320,
+      "description": "Paranormal investigators Ed and Lorraine Warren are called to help a family terrorized by a dark presence in their farmhouse."
+    },
+    {
+      "name": "Hereditary",
+      "image": "https://www.themoviedb.org/t/p/original/ahiRDzmebycKu6QpU4QthjgIEn1.jpg",
+      "price": 68.4,
+      "category": "horror",
+      "rentals": 420,
+      "description": "A family's dark secrets unravel after the death of their secretive grandmother, leading to horrifying and supernatural events."
+    },
+    {
+      "name": "The Babadook",
+      "image": "https://www.themoviedb.org/t/p/original/sT9T8f99Exb0ldvnrtbxqNvd889.jpg",
+      "price": 51.4,
+      "category": "horror",
+      "rentals": 280,
+      "description": "A mother and son are haunted by a sinister presence that has emerged from a mysterious storybook."
+    },
+    {
+      "name": "The Shining",
+      "image": "https://image.tmdb.org/t/p/original/b6ko0IKC8MdYBBPkkA1aBPLe2yz.jpg",
+      "price": 51.4,
+      "category": "horror",
+      "rentals": 310,
+      "description": "A family's winter retreat becomes a descent into madness as supernatural forces influence the father to violence."
+    },
+    {
+      "name": "Sinister",
+      "image": "https://www.themoviedb.org/t/p/original/8YSCar3MadveZMrMxBKKVvXE5q8.jpg",
+      "price": 63.2,
+      "category": "horror",
+      "rentals": 420,
+      "description": "A true-crime writer discovers disturbing home movies that put his family in the path of a supernatural entity."
+    },
+    {
+      "name": "Annabelle: Creation",
+      "image": "https://image.tmdb.org/t/p/original/eKPFgGANVaESNNAXdgOhySrH32C.jpg",
+      "price": 59.2,
+      "category": "horror",
+      "rentals": 380,
+      "description": "Years after a dollmaker's tragedy, he and his wife welcome a nun and orphans into their home, unleashing the malevolent presence of a possessed doll."
+    },
+    {
+      "name": "A Quiet Place Part II",
+      "image": "https://cdn.traileraddict.com/content/paramount-pictures/quiet-place-part-ii-poster-2.jpg",
+      "price": 98.5,
+      "category": "horror",
+      "rentals": 700,
+      "description": "Following the events of the first film, the Abbott family faces new threats as they continue to navigate a world where silence is survival."
+    },
+    {
+      "name": "Toy Story",
+      "image": "https://www.themoviedb.org/t/p/original/c527bh3QM4ItVT3ek5EI7GQOoDR.jpg",
+      "price": 144.6,
+      "category": "animation",
+      "rentals": 980,
+      "description": "Toys come to life when humans aren't around, and Woody, a pull-string cowboy, must deal with the arrival of space-themed Buzz Lightyear."
+    },
+    {
+      "name": "Spirited Away",
+      "image": "https://th.bing.com/th/id/OIP.tckvv-1zvcLQc08IsPZqwAAAAA?rs=1&pid=ImgDetMain",
+      "price": 159.1,
+      "category": "animation",
+      "rentals": 1000,
+      "description": "During her family's move, a young girl enters a mysterious and magical world ruled by spirits, witches, and fantastical creatures."
+    },
+    {
+      "name": "Up",
+      "image": "https://www.themoviedb.org/t/p/original/4HJWbaqpJeTMWvvElpGe6vzTxBX.jpg",
+      "price": 134.9,
+      "category": "animation",
+      "rentals": 930,
+      "description": "An elderly man fulfills his dream of visiting South America by tying thousands of balloons to his house, unintentionally bringing a young boy on an unforgettable adventure."
+    },
+    {
+      "name": "Zootopia",
+      "image": "https://th.bing.com/th/id/OIP.7GP1-HqRQwLGYSc4HHw_cgHaKj?rs=1&pid=ImgDetMain",
+      "price": 110.4,
+      "category": "animation",
+      "rentals": 810,
+      "description": "In a city of anthropomorphic animals, a bunny cop and a cynical con artist fox must work together to uncover a conspiracy."
+    },
+    {
+      "name": "Coco",
+      "image": "https://cdn.traileraddict.com/content/pixar-disney/coco-2017-4.jpg",
+      "price": 123.1,
+      "category": "animation",
+      "rentals": 880,
+      "description": "Miguel, an aspiring musician, embarks on a journey to the Land of the Dead to uncover the truth about his family's ban on music."
+    },
+    {
+      "name": "The Incredibles",
+      "image": "https://image.tmdb.org/t/p/original/7MmIohwOnrIfqKR1kIVtLNIyN1t.jpg",
+      "price": 112.8,
+      "category": "animation",
+      "rentals": 860,
+      "description": "A family of superheroes comes out of retirement to save the world from a new villain threatening humanity."
+    },
+    {
+      "name": "Shrek",
+      "image": "https://th.bing.com/th/id/OIP.Xa6BSkIdJHSlL7c91NwVKQHaKu?rs=1&pid=ImgDetMain",
+      "price": 98.9,
+      "category": "animation",
+      "rentals": 750,
+      "description": "An ogre embarks on a journey with a talkative donkey to rescue Princess Fiona and discovers the value of friendship and self-acceptance."
+    },
+    {
+      "name": "Finding Nemo",
+      "image": "https://www.themoviedb.org/t/p/original/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg",
+      "price": 102.6,
+      "category": "animation",
+      "rentals": 780,
+      "description": "A clownfish named Marlin embarks on a journey across the ocean to find his son, Nemo, who has been captured by a scuba diver."
+    },
+    {
+      "name": "Ratatouille",
+      "image": "https://www.themoviedb.org/t/p/original/npHNjldbeTHdKKw28bJKs7lzqzj.jpg",
+      "price": 107.2,
+      "category": "animation",
+      "rentals": 810,
+      "description": "A rat with a keen sense of taste aspires to become a chef in Paris, forming an unlikely alliance with a young kitchen worker."
+    },
+    {
+      "name": "Moana",
+      "image": "https://www.themoviedb.org/t/p/original/6iHQpFiTg0QbKYac5Mprhx7tXo3.jpg",
+      "price": 95.5,
+      "category": "animation",
+      "rentals": 710,
+      "description": "Moana, a spirited teenager, sets sail on a daring mission to save her people, accompanied by the demigod Maui."
+    },
+    {
+      "name": "Inside Out",
+      "image": "https://mypostercollection.com/wp-content/uploads/2020/01/inside-out-poster.jpg",
+      "price": 79.3,
+      "category": "animation",
+      "rentals": 570,
+      "description": "Emotions personified—Joy, Sadness, Fear, Disgust, and Anger—navigate a young girl's mind during a challenging time in her life."
+    },
+    {
+      "name": "How to Train Your Dragon",
+      "image": "https://www.themoviedb.org/t/p/original/q9JwFktEfzdXlE7gFjKSTOD3jpK.jpg",
+      "price": 92.1,
+      "category": "animation",
+      "rentals": 650,
+      "description": "A young Viking befriends a dragon and works to create a peaceful coexistence between dragons and humans."
     }
   ]
 }
