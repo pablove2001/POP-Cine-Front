@@ -65,26 +65,23 @@ export default function Home() {
   ];
 
   return (
-    <div className="mx-10 mt-20">
-      <h2 className="text-xl font-medium mt-8">Top 10 peliculas</h2>
+    <div className="mx-10 pt-16">
+      <h2 className="text-xl font-medium mt-4">Documentales</h2>
+      <div
+        className="overflow-x-auto flex space-x-2 overflow-auto p-2"
+        style={{ scrollbarWidth: "thin" }}
+      >
+        {movies.map((movie) => (
+          <Poster name={movie.name} img={movie.image} price={movie.price} />
+        ))}
+      </div>
+      <h2 className="text-xl font-medium mt-4">Peliculas dramáticas</h2>
       <div className="overflow-x-auto flex space-x-2 overflow-auto p-2">
         {movies.map((movie) => (
           <Poster name={movie.name} img={movie.image} price={movie.price} />
         ))}
       </div>
-      <h2 className="text-xl font-medium mt-8">Top 10 peliculas</h2>
-      <div className="overflow-x-auto flex space-x-2 overflow-auto p-2">
-        {movies.map((movie) => (
-          <Poster name={movie.name} img={movie.image} price={movie.price} />
-        ))}
-      </div>
-      <h2 className="text-xl font-medium mt-8">Top 10 peliculas</h2>
-      <div className="overflow-x-auto flex space-x-2 overflow-auto p-2">
-        {movies.map((movie) => (
-          <Poster name={movie.name} img={movie.image} price={movie.price} />
-        ))}
-      </div>
-      <h2 className="text-xl font-medium mt-8">Top 10 peliculas</h2>
+      <h2 className="text-xl font-medium mt-4">Reality shows</h2>
       <div className="overflow-x-auto flex space-x-2 overflow-auto p-2">
         {movies.map((movie) => (
           <Poster name={movie.name} img={movie.image} price={movie.price} />
