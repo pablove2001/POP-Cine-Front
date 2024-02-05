@@ -1,92 +1,79 @@
 import Poster from "@/components/Poster";
+import { fetchMovies } from "@/lib/data";
+import {
+  ReactElement,
+  JSXElementConstructor,
+  ReactNode,
+  ReactPortal,
+  PromiseLikeOfReactNode,
+} from "react";
 
-export default function Home() {
-  const movies = [
-    {
-      name: "Iron Man",
-      image:
-        "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/b/bf/Iron_Man_1_Portada.png/revision/latest?cb=20191029194450&path-prefix=es",
-      price: 100.24,
-    },
-    {
-      name: "Iron Man 2",
-      image:
-        "https://image.tmdb.org/t/p/original/5tCA3oZXLRPHmS5DIDnlu7hY4Ab.jpg",
-      price: 100.24,
-    },
-    {
-      name: "Iron Man 3",
-      image:
-        "https://www.themoviedb.org/t/p/original/3OkXrXYsXELnqCqGhgYHvDXTc3v.jpg",
-      price: 100.24,
-    },
-    {
-      name: "UP",
-      image:
-        "https://www.cinepremiere.com.mx/wp-content/uploads/2009/06/up-movie-poster-720x1024.jpg",
-      price: 100.24,
-    },
-    {
-      name: "Iron Man 3",
-      image:
-        "https://www.themoviedb.org/t/p/original/3OkXrXYsXELnqCqGhgYHvDXTc3v.jpg",
-      price: 100.24,
-    },
-    {
-      name: "UP",
-      image:
-        "https://www.cinepremiere.com.mx/wp-content/uploads/2009/06/up-movie-poster-720x1024.jpg",
-      price: 100.24,
-    },
-    {
-      name: "Iron Man 3",
-      image:
-        "https://www.themoviedb.org/t/p/original/3OkXrXYsXELnqCqGhgYHvDXTc3v.jpg",
-      price: 100.24,
-    },
-    {
-      name: "UP",
-      image:
-        "https://www.cinepremiere.com.mx/wp-content/uploads/2009/06/up-movie-poster-720x1024.jpg",
-      price: 100.24,
-    },
-    {
-      name: "Iron Man 3",
-      image:
-        "https://www.themoviedb.org/t/p/original/3OkXrXYsXELnqCqGhgYHvDXTc3v.jpg",
-      price: 100.24,
-    },
-    {
-      name: "UP",
-      image:
-        "https://www.cinepremiere.com.mx/wp-content/uploads/2009/06/up-movie-poster-720x1024.jpg",
-      price: 100.24,
-    },
-  ];
-
+function ShowCategory({
+  movies,
+  showName,
+  categoryName,
+}: {
+  movies: any;
+  showName: string;
+  categoryName: string;
+}) {
+  const filteredMovies = movies.filter(
+    (movie: { category: string }) => movie.category == categoryName
+  );
   return (
-    <div className="mx-10 pt-16">
-      <h2 className="text-xl font-medium mt-4">Documentales</h2>
+    <>
+      <h2 className="text-xl font-medium mt-4">{showName}</h2>
       <div
         className="overflow-x-auto flex space-x-2 overflow-auto p-2"
         style={{ scrollbarWidth: "thin" }}
       >
-        {movies.map((movie) => (
-          <Poster name={movie.name} img={movie.image} price={movie.price} />
-        ))}
+        {filteredMovies.map(
+          (movie: { title: string; picture: string; price: number }) => (
+            <Poster
+              name={movie.title}
+              img={movie.picture}
+              price={movie.price}
+            />
+          )
+        )}
       </div>
-      <h2 className="text-xl font-medium mt-4">Peliculas dramáticas</h2>
-      <div className="overflow-x-auto flex space-x-2 overflow-auto p-2">
-        {movies.map((movie) => (
-          <Poster name={movie.name} img={movie.image} price={movie.price} />
-        ))}
-      </div>
-      <h2 className="text-xl font-medium mt-4">Reality shows</h2>
-      <div className="overflow-x-auto flex space-x-2 overflow-auto p-2">
-        {movies.map((movie) => (
-          <Poster name={movie.name} img={movie.image} price={movie.price} />
-        ))}
-      </div>
-    </div>
+    </>
   );
 }
+
+const Billboard = async () => {
+  const movies = await fetchMovies();
+
+  return (
+    <div className="mx-10 pt-16">
+      <ShowCategory
+        movies={movies}
+        showName={"Cinematic Adrenaline"}
+        categoryName={"action"}
+      />
+      <ShowCategory movies={movies} showName={"Drama"} categoryName={"drama"} />
+      <ShowCategory
+        movies={movies}
+        showName={"Guaranteed Laughs"}
+        categoryName={"comedy"}
+      />
+      <ShowCategory
+        movies={movies}
+        showName={"Futuristic Universes"}
+        categoryName={"sci-fi"}
+      />
+      <ShowCategory
+        movies={movies}
+        showName={"Animated Adventures"}
+        categoryName={"animation"}
+      />
+      <ShowCategory
+        movies={movies}
+        showName={"Screen Horror"}
+        categoryName={"horror"}
+      />
+    </div>
+  );
+};
+
+export default Billboard;
