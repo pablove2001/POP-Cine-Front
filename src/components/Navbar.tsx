@@ -10,7 +10,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16">
             <a href="/" className="sm:hover:text-gray-500 duration-300">
               <span className="text-2xl text-red-600 font-black">
-                Movies.com
+                PopCine
               </span>
             </a>
             <div
