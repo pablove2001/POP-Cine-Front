@@ -1,12 +1,5 @@
 import Poster from "@/components/Poster";
 import { fetchMovies } from "@/lib/data";
-import {
-  ReactElement,
-  JSXElementConstructor,
-  ReactNode,
-  ReactPortal,
-  PromiseLikeOfReactNode,
-} from "react";
 
 function ShowCategory({
   movies,
