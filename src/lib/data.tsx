@@ -1,12 +1,4 @@
-type Movies = {
-  id: string;
-  title: string;
-  picture: string;
-  price: number;
-  category: string;
-  rentals: number;
-  description: string;
-};
+import { Movie } from "@/types/Movie";
 
 export const fetchMovies = async () => {
   const res = await fetch("http://localhost:9000/movies");
@@ -15,6 +7,6 @@ export const fetchMovies = async () => {
     return [];
   }
   console.log("no error");
-  const data: Movies[] = await res.json();
+  const data: Movie[] = await res.json();
   return data;
 };
