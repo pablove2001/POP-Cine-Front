@@ -17,7 +17,7 @@ function ShowCategory({
     <>
       <h2 className="text-xl font-medium mt-4">{showName}</h2>
       <div
-        className="overflow-x-auto flex space-x-2 overflow-auto p-2"
+        className="overflow-x-auto flex space-x-3 overflow-auto p-2"
         style={{ scrollbarWidth: "thin" }}
       >
         {filteredMovies.map(
