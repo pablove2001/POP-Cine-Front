@@ -12,11 +12,11 @@ const Home = async () => {
 
   return (
     <div className="pt-16 bg-[#191b1c]">
-      <div className="max-w-full h-72 flex items-end justify-center px-10">
-        <div className="relative">
+      <div className="max-w-full h-48 sm:h-72 flex items-end justify-center px-10">
+        <div className="relative w-40 sm:w-max">
           <Image src="/POP2.png" alt="" width={250} height={250} />
-          <Image src="/suR.png" alt="" width={50} height={50} className="absolute left-0 -bottom-[20px]" />
-          <Image src="/suL.png" alt="" width={50} height={50} className="absolute right-0 -bottom-[20px]" />
+          <Image src="/suR.png" alt="" width={60} height={60} className="absolute left-0 -bottom-[19px] sm:-bottom-[24px] w-10 sm:w-[60px]" />
+          <Image src="/suL.png" alt="" width={60} height={60} className="absolute right-0 -bottom-[19px] sm:-bottom-[24px] w-10 sm:w-[60px]" />
         </div>
 
       </div>
