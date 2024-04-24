@@ -1,12 +1,13 @@
 import Poster from "@/components/Poster";
 import { fetchMovies } from "@/lib/data";
+import { Movie } from "@/types/Movie";
 
 function ShowCategory({
   movies,
   showName,
   categoryName,
 }: {
-  movies: any;
+  movies: Movie[];
   showName: string;
   categoryName: string;
 }) {
@@ -21,8 +22,14 @@ function ShowCategory({
         style={{ scrollbarWidth: "thin" }}
       >
         {filteredMovies.map(
-          (movie: { title: string; picture: string; price: number }) => (
+          (movie: {
+            title: string;
+            picture: string;
+            price: number;
+            id: string;
+          }) => (
             <Poster
+              key={movie.id}
               name={movie.title}
               img={movie.picture}
               price={movie.price}
